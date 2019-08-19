@@ -174,3 +174,77 @@ phases:
       cover-function-only: false
       # instrument the file as opposed to the function only
       cover-only: file
+units:
+ - target:
+   - dir: blade-auth/target/classes
+     file: org/springblade/auth/granter/TokenGranterBuilder.class
+     sourceDir: blade-auth/src/main/java
+     sourceFile: org/springblade/auth/granter/TokenGranterBuilder.java
+   - dir: blade-auth/target/classes
+     file: org/springblade/auth/granter/ITokenGranter.class
+     sourceDir: blade-auth/src/main/java
+     sourceFile: org/springblade/auth/granter/ITokenGranter.java
+ - target:
+   - dir: blade-service-api/blade-user-api/target/classes
+     file: org/springblade/system/user/entity/User.class
+     sourceDir: blade-service-api/blade-user-api/src/main/java
+     sourceFile: org/springblade/system/user/entity/User.java
+ - target:
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/entity/Menu.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/entity/Menu.java
+ - target:
+   - dir: blade-gateway/target/classes
+     file: org/springblade/gateway/handler/ErrorExceptionHandler.class
+     sourceDir: blade-gateway/src/main/java
+     sourceFile: org/springblade/gateway/handler/ErrorExceptionHandler.java
+ - target:
+   - dir: blade-service-api/blade-desk-api/target/classes
+     file: org/springblade/desk/entity/Notice.class
+     sourceDir: blade-service-api/blade-desk-api/src/main/java
+     sourceFile: org/springblade/desk/entity/Notice.java
+ - target:
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/entity/AuthClient.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/entity/AuthClient.java
+ - target:
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/entity/Param.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/entity/Param.java
+ - target:
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/entity/Dept.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/entity/Dept.java
+ - target:
+   - dir: blade-ops/blade-develop/target/classes
+     file: org/springblade/develop/entity/Code.class
+     sourceDir: blade-ops/blade-develop/src/main/java
+     sourceFile: org/springblade/develop/entity/Code.java
+ - target:
+   - dir: blade-service-api/blade-dict-api/target/classes
+     file: org/springblade/system/entity/Dict.class
+     sourceDir: blade-service-api/blade-dict-api/src/main/java
+     sourceFile: org/springblade/system/entity/Dict.java
+ - target:
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/entity/Tenant.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/entity/Tenant.java
+ - target:
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/entity/Role.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/entity/Role.java
+ - target:
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/vo/MenuVO.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/vo/MenuVO.java
+   - dir: blade-service-api/blade-system-api/target/classes
+     file: org/springblade/system/entity/Menu.class
+     sourceDir: blade-service-api/blade-system-api/src/main/java
+     sourceFile: org/springblade/system/entity/Menu.java
